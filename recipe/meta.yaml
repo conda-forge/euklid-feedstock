@@ -1,5 +1,5 @@
 {% set name = "euklid" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,9 @@ package:
 
 source:
   url: https://github.com/airgproducts/euklid/archive/{{ version }}.tar.gz
-  sha256: cf0b8f5bbdde40288226cb162023f43930831357ee8ebd2f01f1766e3a84a674
+  sha256: 904e71fbd3d2e7c804e1d590077b87c345b46cbc7d4e9d812a683e49ee1f9a28
   #git_url: https://github.com/airgproducts/euklid
   #git_tag: master
-  
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --install-option="--conda" -vv
