@@ -1,5 +1,5 @@
 {% set name = "euklid" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.12" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/airgproducts/euklid/archive/{{ version }}.tar.gz
-  sha256: 904e71fbd3d2e7c804e1d590077b87c345b46cbc7d4e9d812a683e49ee1f9a28
+  sha256: adcc9b17bbf795fe1630abe84f3d9e406d2525b62b4e2e119553cdaee5387493
   #git_url: https://github.com/airgproducts/euklid
   #git_tag: master
 build:
