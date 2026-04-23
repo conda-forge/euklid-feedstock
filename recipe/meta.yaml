@@ -9,7 +9,7 @@ source:
   url: https://github.com/airgproducts/euklid/archive/{{ version }}.tar.gz
   sha256: bb7fcce2f3c77a8b79fcc77021b648ecbea46d295040be124c5d3eadaee515b7
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --install-option="--conda" -vv
   script_env:
     - CMAKE_GENERATOR=Ninja
